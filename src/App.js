@@ -44,7 +44,7 @@ function App() {
       <Box
         sx={{
           position: "absolute",
-          m: "10rem 20rem",
+          m: "5rem 12rem",
           px: 5,
           py: 10,
           backgroundColor: "#c1e5f1",
