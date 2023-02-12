@@ -66,7 +66,7 @@ function App() {
             select
             defaultValue={dropdown}
             size="small"
-            style={{ width: "300px" }}
+            style={{ width: "300px",backgroundColor: "white" }}
             onChange={(event) => setDropdown(event.target.value)}
           >
             {[
@@ -85,7 +85,7 @@ function App() {
             onChange={handleChange}
             value={question}
             size="meduim"
-            sx={{ width: "1000px" }}
+            sx={{ width: "1000px",backgroundColor: "white"}}
           ></TextField>
         </Box>
 
@@ -107,7 +107,7 @@ function App() {
             minRows={6}
             aria-label="empty textarea"
             placeholder="Response"
-            style={{ width: "1000px", backgroundColor: "#c1e5f1" }}
+            style={{ width: "1000px" ,backgroundColor: "white"}}
             defaultValue={response}
             
           />
