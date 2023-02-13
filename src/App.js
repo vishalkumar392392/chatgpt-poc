@@ -36,14 +36,16 @@ function App() {
   return (
     <Box
       sx={{
-        height: "100vh",
-        backgroundColor: "#96cde7"
+        height: "100%",
+        width: "100%",
+        backgroundColor: "#96cde7",
+        position: "absolute",
 
       }}
     >
       <Box
         sx={{
-          position: "absolute",
+          // position: "absolute",
           m: "5rem 12rem",
           px: 5,
           py: 10,
